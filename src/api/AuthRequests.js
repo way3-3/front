@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const API = axios.create({ baseURL: 'https://back-1-ekqe.onrender.com' });
+const API = axios.create({ baseURL: 'https://back-xcia.onrender.com' });
 
 export const logIn= (formData)=> API.post('/auth/login',formData);
 
